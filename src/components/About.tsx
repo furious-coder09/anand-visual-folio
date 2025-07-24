@@ -106,7 +106,7 @@ const About = () => {
             {/* About Content */}
             <motion.div variants={slideVariants} className="space-y-8">
               <div className="space-y-6">
-                <h3 className="text-3xl font-heading font-semibold mb-4">
+                <h3 className="text-3xl font-heading font-semibold mb-4 text-vibrant">
                   Passionate Developer & CS Student
                 </h3>
                 

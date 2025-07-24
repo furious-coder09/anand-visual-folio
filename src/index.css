@@ -8,48 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Portfolio Design System - Modern & Professional */
-    --background: 245 245 250;
-    --foreground: 220 15% 15%;
+    /* Vibrant Portfolio Design System */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 255 255 255;
-    --card-foreground: 220 15% 15%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 255 255 255;
-    --popover-foreground: 220 15% 15%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    /* Primary: Deep Blue */
-    --primary: 217 91% 25%;
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 217 91% 35%;
+    /* Primary: Electric Blue */
+    --primary: 217 100% 50%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 217 100% 70%;
 
-    /* Secondary: Electric Purple */
-    --secondary: 260 80% 60%;
-    --secondary-foreground: 210 40% 98%;
+    /* Secondary: Neon Purple */
+    --secondary: 280 100% 60%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 240 5% 26%;
+    --muted-foreground: 240 5% 84%;
 
-    /* Accent: Cyan */
-    --accent: 180 100% 70%;
-    --accent-foreground: 220 15% 15%;
+    /* Accent: Electric Pink */
+    --accent: 330 100% 60%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 217 91% 60%;
+    --border: 240 6% 20%;
+    --input: 240 6% 20%;
+    --ring: 217 100% 60%;
 
     --radius: 0.75rem;
 
-    /* Portfolio Specific Colors */
-    --hero-gradient-start: 260 80% 60%;
-    --hero-gradient-end: 217 91% 35%;
-    --glass-bg: 255 255 255;
-    --glass-border: 255 255 255;
-    --shadow-primary: 217 91% 25%;
-    --shadow-glow: 260 80% 60%;
+    /* Vibrant Portfolio Colors */
+    --hero-gradient-start: 217 100% 50%;
+    --hero-gradient-end: 280 100% 60%;
+    --glass-bg: 240 10% 3.9%;
+    --glass-border: 240 30% 18%;
+    --shadow-primary: 217 100% 50%;
+    --shadow-glow: 330 100% 60%;
+
+    /* New Vibrant Colors */
+    --electric-cyan: 180 100% 50%;
+    --neon-green: 120 100% 50%;
+    --hot-pink: 330 100% 70%;
+    --orange-burst: 20 100% 60%;
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -73,43 +79,43 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Dark Mode Portfolio */
-    --background: 220 27% 8%;
-    --foreground: 210 40% 98%;
+    /* Vibrant Dark Mode */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 220 27% 12%;
-    --card-foreground: 210 40% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 220 27% 12%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 217 91% 60%;
-    --primary-foreground: 220 27% 8%;
-    --primary-glow: 217 91% 70%;
+    --primary: 217 100% 60%;
+    --primary-foreground: 240 10% 3.9%;
+    --primary-glow: 217 100% 80%;
 
-    --secondary: 260 80% 70%;
-    --secondary-foreground: 220 27% 8%;
+    --secondary: 280 100% 70%;
+    --secondary-foreground: 240 10% 3.9%;
 
-    --muted: 220 27% 15%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 240 5% 26%;
+    --muted-foreground: 240 5% 84%;
 
-    --accent: 180 100% 80%;
-    --accent-foreground: 220 27% 8%;
+    --accent: 330 100% 70%;
+    --accent-foreground: 240 10% 3.9%;
 
-    --destructive: 0 62% 50%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 27% 20%;
-    --input: 220 27% 20%;
-    --ring: 217 91% 60%;
+    --border: 240 6% 20%;
+    --input: 240 6% 20%;
+    --ring: 217 100% 60%;
 
-    /* Dark Portfolio Colors */
-    --hero-gradient-start: 260 80% 50%;
-    --hero-gradient-end: 217 91% 40%;
-    --glass-bg: 220 27% 12%;
-    --glass-border: 220 27% 25%;
-    --shadow-primary: 217 91% 35%;
-    --shadow-glow: 260 80% 50%;
+    /* Vibrant Dark Portfolio Colors */
+    --hero-gradient-start: 217 100% 60%;
+    --hero-gradient-end: 280 100% 70%;
+    --glass-bg: 240 10% 3.9%;
+    --glass-border: 240 30% 18%;
+    --shadow-primary: 217 100% 50%;
+    --shadow-glow: 330 100% 60%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -132,35 +138,78 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  /* Portfolio Specific Styles */
+  /* Vibrant Portfolio Styles */
   .hero-gradient {
     background: linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%);
+    position: relative;
+  }
+
+  .hero-gradient::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.1) 0%, hsl(var(--secondary) / 0.1) 50%, hsl(var(--accent) / 0.1) 100%);
+    opacity: 0.8;
   }
 
   .glass-card {
-    background: hsl(var(--glass-bg) / 0.1);
-    backdrop-filter: blur(10px);
+    background: hsl(var(--glass-bg) / 0.05);
+    backdrop-filter: blur(20px);
     border: 1px solid hsl(var(--glass-border) / 0.2);
-    box-shadow: 0 8px 32px hsl(var(--shadow-primary) / 0.1);
+    box-shadow: 
+      0 8px 32px hsl(var(--shadow-primary) / 0.15),
+      inset 0 1px 0 hsl(var(--glass-border) / 0.1);
   }
 
   .glass-card-strong {
-    background: hsl(var(--glass-bg) / 0.2);
-    backdrop-filter: blur(20px);
+    background: hsl(var(--glass-bg) / 0.1);
+    backdrop-filter: blur(30px);
     border: 1px solid hsl(var(--glass-border) / 0.3);
-    box-shadow: 0 12px 40px hsl(var(--shadow-primary) / 0.15);
+    box-shadow: 
+      0 20px 40px hsl(var(--shadow-primary) / 0.2),
+      0 0 0 1px hsl(var(--glass-border) / 0.05),
+      inset 0 1px 0 hsl(var(--glass-border) / 0.2);
   }
 
   .glow-primary {
-    box-shadow: 0 0 20px hsl(var(--primary-glow) / 0.3), 0 0 40px hsl(var(--primary-glow) / 0.1);
+    box-shadow: 
+      0 0 20px hsl(var(--primary-glow) / 0.4),
+      0 0 40px hsl(var(--primary-glow) / 0.2),
+      0 0 60px hsl(var(--primary-glow) / 0.1);
   }
 
   .glow-secondary {
-    box-shadow: 0 0 20px hsl(var(--shadow-glow) / 0.3), 0 0 40px hsl(var(--shadow-glow) / 0.1);
+    box-shadow: 
+      0 0 20px hsl(var(--secondary) / 0.4),
+      0 0 40px hsl(var(--secondary) / 0.2),
+      0 0 60px hsl(var(--secondary) / 0.1);
+  }
+
+  .glow-accent {
+    box-shadow: 
+      0 0 20px hsl(var(--accent) / 0.4),
+      0 0 40px hsl(var(--accent) / 0.2),
+      0 0 60px hsl(var(--accent) / 0.1);
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 50%, hsl(var(--accent)) 100%);
+    background: linear-gradient(135deg, 
+      hsl(var(--primary)) 0%, 
+      hsl(var(--secondary)) 25%, 
+      hsl(var(--accent)) 50%, 
+      hsl(var(--electric-cyan)) 75%, 
+      hsl(var(--hot-pink)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  .text-vibrant {
+    background: linear-gradient(45deg, 
+      hsl(var(--primary)) 0%, 
+      hsl(var(--accent)) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -181,6 +230,21 @@ All colors MUST be HSL.
   .transition-bounce {
     transition: var(--transition-bounce);
   }
+
+  .cyber-border {
+    border: 2px solid transparent;
+    background: linear-gradient(hsl(var(--background)), hsl(var(--background))) padding-box,
+                linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)), hsl(var(--accent))) border-box;
+  }
+
+  .neon-text {
+    color: hsl(var(--primary));
+    text-shadow: 
+      0 0 5px hsl(var(--primary) / 0.5),
+      0 0 10px hsl(var(--primary) / 0.4),
+      0 0 15px hsl(var(--primary) / 0.3),
+      0 0 20px hsl(var(--primary) / 0.2);
+  }
 }
 
 @layer utilities {
@@ -190,6 +254,15 @@ All colors MUST be HSL.
     }
     50% {
       transform: translateY(-10px);
+    }
+  }
+
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
     }
   }
 
@@ -226,6 +299,24 @@ All colors MUST be HSL.
     }
   }
 
+  @keyframes neon-pulse {
+    0%, 100% {
+      filter: brightness(1) saturate(1);
+    }
+    50% {
+      filter: brightness(1.2) saturate(1.3);
+    }
+  }
+
+  @keyframes cyber-scan {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
   .animate-fadeInUp {
     animation: fadeInUp 0.8s ease-out forwards;
   }
@@ -236,5 +327,29 @@ All colors MUST be HSL.
 
   .animate-slideInRight {
     animation: slideInRight 0.8s ease-out forwards;
+  }
+
+  .animate-neon-pulse {
+    animation: neon-pulse 2s ease-in-out infinite;
+  }
+
+  .animate-gradient-shift {
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  /* Utility classes for vibrant effects */
+  .bg-vibrant-gradient {
+    background: linear-gradient(135deg, 
+      hsl(var(--primary)) 0%, 
+      hsl(var(--secondary)) 33%, 
+      hsl(var(--accent)) 66%, 
+      hsl(var(--electric-cyan)) 100%);
+  }
+
+  .border-vibrant {
+    border-image: linear-gradient(135deg, 
+      hsl(var(--primary)) 0%, 
+      hsl(var(--secondary)) 50%, 
+      hsl(var(--accent)) 100%) 1;
   }
 }

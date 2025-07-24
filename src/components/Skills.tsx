@@ -39,48 +39,48 @@ const Skills = () => {
     {
       icon: Globe,
       title: 'Frontend',
-      color: 'from-blue-500 to-cyan-500',
+      color: 'from-electric-cyan to-primary',
       skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3']
     },
     {
       icon: Database,
       title: 'Backend',
-      color: 'from-green-500 to-emerald-500',
+      color: 'from-neon-green to-secondary',
       skills: ['Node.js', 'Express', 'Python', 'Django', 'REST APIs', 'GraphQL']
     },
     {
       icon: Code,
       title: 'Languages',
-      color: 'from-purple-500 to-pink-500',
+      color: 'from-hot-pink to-accent',
       skills: ['JavaScript', 'TypeScript', 'Python', 'C++', 'Java', 'Go']
     },
     {
       icon: Cpu,
       title: 'Database',
-      color: 'from-orange-500 to-red-500',
+      color: 'from-orange-burst to-primary',
       skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'Firebase', 'Supabase']
     },
     {
       icon: GitBranch,
       title: 'Tools & DevOps',
-      color: 'from-indigo-500 to-purple-500',
+      color: 'from-secondary to-accent',
       skills: ['Git', 'Docker', 'AWS', 'Vercel', 'Postman', 'Linux']
     },
     {
       icon: Smartphone,
       title: 'Mobile & Others',
-      color: 'from-teal-500 to-green-500',
+      color: 'from-primary to-hot-pink',
       skills: ['React Native', 'Flutter', 'Figma', 'Adobe XD', 'Photoshop', 'Blender']
     }
   ];
 
   const techStack = [
-    { name: 'React', level: 90, color: 'bg-blue-500' },
-    { name: 'TypeScript', level: 85, color: 'bg-blue-600' },
-    { name: 'Node.js', level: 80, color: 'bg-green-500' },
-    { name: 'Python', level: 88, color: 'bg-yellow-500' },
-    { name: 'Tailwind CSS', level: 92, color: 'bg-cyan-500' },
-    { name: 'PostgreSQL', level: 75, color: 'bg-indigo-500' }
+    { name: 'React', level: 90, color: 'bg-electric-cyan' },
+    { name: 'TypeScript', level: 85, color: 'bg-primary' },
+    { name: 'Node.js', level: 80, color: 'bg-neon-green' },
+    { name: 'Python', level: 88, color: 'bg-orange-burst' },
+    { name: 'Tailwind CSS', level: 92, color: 'bg-hot-pink' },
+    { name: 'PostgreSQL', level: 75, color: 'bg-secondary' }
   ];
 
   return (
@@ -192,7 +192,7 @@ const Skills = () => {
 
           {/* Learning & Interests */}
           <motion.div variants={itemVariants} className="mt-16 text-center">
-            <h3 className="text-2xl font-heading font-semibold mb-6">
+            <h3 className="text-2xl font-heading font-semibold mb-6 text-vibrant">
               Currently Learning & Exploring
             </h3>
             
@@ -204,7 +204,7 @@ const Skills = () => {
                   animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                   transition={{ delay: index * 0.1 }}
                   whileHover={{ scale: 1.05 }}
-                  className="glass-card px-4 py-2 rounded-full border-accent/30 hover:border-accent/60 transition-all duration-300"
+                  className="glass-card px-4 py-2 rounded-full border-accent/30 hover:border-accent/60 hover:glow-accent transition-all duration-300 animate-neon-pulse"
                 >
                   <span className="text-accent font-medium">{item}</span>
                 </motion.div>

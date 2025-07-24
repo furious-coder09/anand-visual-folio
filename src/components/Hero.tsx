@@ -105,7 +105,7 @@ const Hero = () => {
         {/* Subtitle */}
         <motion.p
           variants={itemVariants}
-          className="text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 mb-6 font-medium"
+          className="text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 mb-6 font-medium animate-neon-pulse"
         >
           A Computer Science Student & Developer
         </motion.p>
