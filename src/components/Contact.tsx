@@ -6,9 +6,10 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
-import { toast } from 'sonner';
+import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
+  const { toast } = useToast();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1
@@ -29,7 +30,10 @@ const Contact = () => {
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 2000));
     
-    toast.success("Message sent successfully! I'll get back to you soon.");
+    toast({
+      title: "Message sent successfully! 🎉",
+      description: "I'll get back to you soon.",
+    });
     setFormData({ name: '', email: '', message: '' });
     setIsSubmitting(false);
   };

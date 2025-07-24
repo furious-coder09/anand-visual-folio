@@ -90,44 +90,52 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Vibrant Dark Mode (Optional) */
-    --background: 220 30% 8%;
-    --foreground: 0 0% 98%;
+    /* Beautiful Dark Mode */
+    --background: 220 30% 6%;
+    --foreground: 0 0% 95%;
 
-    --card: 220 30% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 220 30% 8%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 220 30% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 220 30% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 217 100% 60%;
-    --primary-foreground: 220 30% 8%;
+    --primary: 217 100% 65%;
+    --primary-foreground: 220 30% 6%;
     --primary-glow: 217 100% 80%;
 
     --secondary: 280 100% 70%;
-    --secondary-foreground: 220 30% 8%;
+    --secondary-foreground: 220 30% 6%;
 
-    --muted: 220 30% 18%;
-    --muted-foreground: 240 5% 84%;
+    --muted: 220 30% 15%;
+    --muted-foreground: 240 5% 75%;
 
     --accent: 330 100% 70%;
-    --accent-foreground: 220 30% 8%;
+    --accent-foreground: 220 30% 6%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 30% 25%;
-    --input: 220 30% 25%;
+    --border: 220 30% 20%;
+    --input: 220 30% 18%;
     --ring: 217 100% 60%;
 
-    /* Vibrant Dark Backgrounds */
-    --section-bg-1: 220 30% 12%;
-    --section-bg-2: 240 30% 12%;
-    --section-bg-3: 260 30% 12%;
-    --glass-bg: 220 30% 12%;
+    /* Dark Mode Backgrounds - Rich, Colorful Gradients */
+    --hero-gradient-start: 220 30% 8%;
+    --hero-gradient-end: 240 30% 12%;
+    --hero-gradient-accent: 260 30% 10%;
+    --section-bg-1: 220 30% 8%;
+    --section-bg-2: 240 30% 8%;
+    --section-bg-3: 260 30% 8%;
+    --glass-bg: 220 30% 8%;
     --glass-border: 240 30% 25%;
     --shadow-primary: 217 100% 50%;
     --shadow-glow: 330 100% 60%;
+
+    /* Dark mode gradients */
+    --bg-gradient-1: linear-gradient(135deg, hsl(220 30% 8%) 0%, hsl(240 50% 12%) 50%, hsl(260 30% 10%) 100%);
+    --bg-gradient-2: linear-gradient(135deg, hsl(240 30% 8%) 0%, hsl(260 50% 12%) 50%, hsl(280 30% 10%) 100%);
+    --bg-gradient-3: linear-gradient(135deg, hsl(260 30% 8%) 0%, hsl(280 50% 12%) 50%, hsl(300 30% 10%) 100%);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
