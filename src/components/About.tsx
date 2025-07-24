@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { GraduationCap, BookOpen, Award } from 'lucide-react';
@@ -207,4 +208,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default memo(About);

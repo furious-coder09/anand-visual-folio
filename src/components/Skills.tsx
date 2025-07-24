@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { 
@@ -253,4 +254,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default memo(Skills);

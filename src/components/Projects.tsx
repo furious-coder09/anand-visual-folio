@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Github, ExternalLink, Star, GitFork, Eye } from 'lucide-react';
@@ -324,4 +324,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default memo(Projects);
