@@ -8,46 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Vibrant Portfolio Design System */
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    /* Vibrant Colorful Design System */
+    --background: 240 100% 98%;
+    --foreground: 220 15% 15%;
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 255 255 255;
+    --card-foreground: 220 15% 15%;
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 255 255 255;
+    --popover-foreground: 220 15% 15%;
 
     /* Primary: Electric Blue */
     --primary: 217 100% 50%;
-    --primary-foreground: 0 0% 98%;
+    --primary-foreground: 255 255 255;
     --primary-glow: 217 100% 70%;
 
     /* Secondary: Neon Purple */
     --secondary: 280 100% 60%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary-foreground: 255 255 255;
 
-    --muted: 240 5% 26%;
-    --muted-foreground: 240 5% 84%;
+    --muted: 240 10% 94%;
+    --muted-foreground: 240 5% 45%;
 
     /* Accent: Electric Pink */
     --accent: 330 100% 60%;
-    --accent-foreground: 0 0% 98%;
+    --accent-foreground: 255 255 255;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 255 255 255;
 
-    --border: 240 6% 20%;
-    --input: 240 6% 20%;
+    --border: 240 10% 85%;
+    --input: 240 10% 90%;
     --ring: 217 100% 60%;
 
     --radius: 0.75rem;
 
-    /* Vibrant Portfolio Colors */
+    /* Vibrant Background Colors */
     --hero-gradient-start: 217 100% 50%;
     --hero-gradient-end: 280 100% 60%;
-    --glass-bg: 240 10% 3.9%;
-    --glass-border: 240 30% 18%;
+    --hero-gradient-accent: 330 100% 60%;
+    --section-bg-1: 200 100% 97%;
+    --section-bg-2: 280 30% 97%;
+    --section-bg-3: 330 30% 97%;
+    --glass-bg: 255 255 255;
+    --glass-border: 240 30% 85%;
     --shadow-primary: 217 100% 50%;
     --shadow-glow: 330 100% 60%;
 
@@ -56,6 +60,13 @@ All colors MUST be HSL.
     --neon-green: 120 100% 50%;
     --hot-pink: 330 100% 70%;
     --orange-burst: 20 100% 60%;
+    --purple-dream: 260 100% 70%;
+    --blue-sky: 200 100% 60%;
+
+    /* Gradient Backgrounds */
+    --bg-gradient-1: linear-gradient(135deg, hsl(200 100% 95%) 0%, hsl(240 100% 97%) 50%, hsl(280 100% 95%) 100%);
+    --bg-gradient-2: linear-gradient(135deg, hsl(280 30% 97%) 0%, hsl(330 30% 97%) 50%, hsl(20 30% 97%) 100%);
+    --bg-gradient-3: linear-gradient(135deg, hsl(120 30% 97%) 0%, hsl(180 30% 97%) 50%, hsl(200 30% 97%) 100%);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,41 +90,42 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Vibrant Dark Mode */
-    --background: 240 10% 3.9%;
+    /* Vibrant Dark Mode (Optional) */
+    --background: 220 30% 8%;
     --foreground: 0 0% 98%;
 
-    --card: 240 10% 3.9%;
+    --card: 220 30% 12%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 240 10% 3.9%;
+    --popover: 220 30% 12%;
     --popover-foreground: 0 0% 98%;
 
     --primary: 217 100% 60%;
-    --primary-foreground: 240 10% 3.9%;
+    --primary-foreground: 220 30% 8%;
     --primary-glow: 217 100% 80%;
 
     --secondary: 280 100% 70%;
-    --secondary-foreground: 240 10% 3.9%;
+    --secondary-foreground: 220 30% 8%;
 
-    --muted: 240 5% 26%;
+    --muted: 220 30% 18%;
     --muted-foreground: 240 5% 84%;
 
     --accent: 330 100% 70%;
-    --accent-foreground: 240 10% 3.9%;
+    --accent-foreground: 220 30% 8%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 240 6% 20%;
-    --input: 240 6% 20%;
+    --border: 220 30% 25%;
+    --input: 220 30% 25%;
     --ring: 217 100% 60%;
 
-    /* Vibrant Dark Portfolio Colors */
-    --hero-gradient-start: 217 100% 60%;
-    --hero-gradient-end: 280 100% 70%;
-    --glass-bg: 240 10% 3.9%;
-    --glass-border: 240 30% 18%;
+    /* Vibrant Dark Backgrounds */
+    --section-bg-1: 220 30% 12%;
+    --section-bg-2: 240 30% 12%;
+    --section-bg-3: 260 30% 12%;
+    --glass-bg: 220 30% 12%;
+    --glass-border: 240 30% 25%;
     --shadow-primary: 217 100% 50%;
     --shadow-glow: 330 100% 60%;
     --sidebar-background: 240 5.9% 10%;

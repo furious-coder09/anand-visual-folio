@@ -120,7 +120,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 bg-background relative overflow-hidden">
+    <section id="projects" className="py-20 bg-section-gradient-3 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/3 left-1/6 w-72 h-72 bg-gradient-to-r from-primary to-secondary rounded-full blur-3xl" />

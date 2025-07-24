@@ -100,7 +100,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-muted/30 to-background relative overflow-hidden">
+    <section id="contact" className="py-20 bg-rainbow-gradient relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-10">
         <motion.div

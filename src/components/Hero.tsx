@@ -43,7 +43,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-hero-gradient">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-mesh-gradient">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -87,7 +87,7 @@ const Hero = () => {
           variants={itemVariants}
           className="mb-6"
         >
-          <span className="text-lg md:text-xl text-primary-foreground/80 font-medium">
+          <span className="text-lg md:text-xl text-foreground/80 font-medium">
             👋 Welcome to my portfolio
           </span>
         </motion.div>
@@ -95,9 +95,9 @@ const Hero = () => {
         {/* Main Heading with Typewriter Effect */}
         <motion.h1
           variants={itemVariants}
-          className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-primary-foreground mb-4 min-h-[1.2em]"
+          className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-foreground mb-4 min-h-[1.2em]"
         >
-          <span className="inline-block border-r-2 border-primary-foreground/50 animate-pulse">
+          <span className="inline-block border-r-2 border-foreground/50 animate-pulse">
             {currentText}
           </span>
         </motion.h1>
@@ -105,7 +105,7 @@ const Hero = () => {
         {/* Subtitle */}
         <motion.p
           variants={itemVariants}
-          className="text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 mb-6 font-medium animate-neon-pulse"
+          className="text-xl md:text-2xl lg:text-3xl text-foreground/90 mb-6 font-medium animate-neon-pulse"
         >
           A Computer Science Student & Developer
         </motion.p>
@@ -113,7 +113,7 @@ const Hero = () => {
         {/* Description */}
         <motion.p
           variants={itemVariants}
-          className="text-lg md:text-xl text-primary-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed"
+          className="text-lg md:text-xl text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed"
         >
           Passionate about creating innovative solutions through code. 
           Currently pursuing my BTech in Computer Science and exploring the fascinating world of technology.
@@ -131,7 +131,7 @@ const Hero = () => {
           >
             <Button 
               size="lg" 
-              className="glass-card-strong border-primary-foreground/20 text-primary-foreground hover:glow-primary group px-8 py-6 text-lg font-semibold"
+              className="glass-card-strong border-foreground/20 text-foreground hover:glow-primary group px-8 py-6 text-lg font-semibold"
             >
               <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
               Download Resume
@@ -147,7 +147,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="glass-card border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-6 text-lg font-semibold"
+                className="glass-card border-foreground/30 text-foreground hover:bg-foreground/10 px-8 py-6 text-lg font-semibold"
               >
                 <Mail className="mr-2 h-5 w-5" />
                 Contact Me
@@ -173,7 +173,7 @@ const Hero = () => {
                 href={social.href}
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                className="p-3 glass-card border-primary-foreground/20 rounded-full text-primary-foreground/70 hover:text-primary-foreground hover:glow-secondary transition-all duration-300"
+                className="p-3 glass-card border-foreground/20 rounded-full text-foreground/70 hover:text-foreground hover:glow-secondary transition-all duration-300"
                 aria-label={social.label}
               >
                 <Icon size={24} />
@@ -215,12 +215,12 @@ const Hero = () => {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-primary-foreground/30 rounded-full flex justify-center"
+          className="w-6 h-10 border-2 border-foreground/30 rounded-full flex justify-center"
         >
           <motion.div
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
-            className="w-1 h-3 bg-primary-foreground/50 rounded-full mt-2"
+            className="w-1 h-3 bg-foreground/50 rounded-full mt-2"
           />
         </motion.div>
       </motion.div>

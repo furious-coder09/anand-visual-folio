@@ -71,14 +71,29 @@ export default {
 				'electric-cyan': 'hsl(var(--electric-cyan))',
 				'neon-green': 'hsl(var(--neon-green))',
 				'hot-pink': 'hsl(var(--hot-pink))',
-				'orange-burst': 'hsl(var(--orange-burst))'
+				'orange-burst': 'hsl(var(--orange-burst))',
+				'purple-dream': 'hsl(var(--purple-dream))',
+				'blue-sky': 'hsl(var(--blue-sky))',
+				// Section backgrounds
+				'section-1': 'hsl(var(--section-bg-1))',
+				'section-2': 'hsl(var(--section-bg-2))',
+				'section-3': 'hsl(var(--section-bg-3))'
 			},
 			backgroundImage: {
-				'hero-gradient': 'linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%)',
+				'hero-gradient': 'linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 60%, hsl(var(--hero-gradient-accent)) 100%)',
 				'glass-gradient': 'linear-gradient(135deg, hsl(var(--glass-bg) / 0.1) 0%, hsl(var(--glass-bg) / 0.05) 100%)',
 				'vibrant-gradient': 'linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 33%, hsl(var(--accent)) 66%, hsl(var(--electric-cyan)) 100%)',
-				'neon-glow': 'radial-gradient(circle, hsl(var(--primary) / 0.3) 0%, hsl(var(--secondary) / 0.2) 50%, transparent 100%)',
-				'cyber-grid': `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23007AFF' fill-opacity='0.1'%3E%3Cpath d='m36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+				'section-gradient-1': 'linear-gradient(135deg, hsl(200 100% 95%) 0%, hsl(240 100% 97%) 50%, hsl(280 100% 95%) 100%)',
+				'section-gradient-2': 'linear-gradient(135deg, hsl(280 30% 97%) 0%, hsl(330 30% 97%) 50%, hsl(20 30% 97%) 100%)',
+				'section-gradient-3': 'linear-gradient(135deg, hsl(120 30% 97%) 0%, hsl(180 30% 97%) 50%, hsl(200 30% 97%) 100%)',
+				'rainbow-gradient': 'linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 20%, hsl(var(--accent)) 40%, hsl(var(--electric-cyan)) 60%, hsl(var(--neon-green)) 80%, hsl(var(--orange-burst)) 100%)',
+				'mesh-gradient': `radial-gradient(at 40% 20%, hsl(var(--primary) / 0.3) 0px, transparent 50%),
+                                  radial-gradient(at 80% 0%, hsl(var(--secondary) / 0.3) 0px, transparent 50%),
+                                  radial-gradient(at 0% 50%, hsl(var(--accent) / 0.3) 0px, transparent 50%),
+                                  radial-gradient(at 80% 50%, hsl(var(--electric-cyan) / 0.3) 0px, transparent 50%),
+                                  radial-gradient(at 0% 100%, hsl(var(--hot-pink) / 0.3) 0px, transparent 50%),
+                                  radial-gradient(at 80% 100%, hsl(var(--orange-burst) / 0.3) 0px, transparent 50%),
+                                  radial-gradient(at 0% 0%, hsl(var(--neon-green) / 0.3) 0px, transparent 50%)`
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
