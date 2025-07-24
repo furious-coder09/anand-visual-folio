@@ -1,10 +1,10 @@
 import { lazy, Suspense } from 'react';
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
+import Navbar from '@/components/NavbarOptimized';
+import Hero from '@/components/HeroOptimized';
 import Footer from '@/components/Footer';
-import LoadingSpinner from '@/components/LoadingSpinner';
 
-// Lazy load components that are not immediately visible
+
+// Lazy load non-critical components
 const About = lazy(() => import('@/components/About'));
 const Skills = lazy(() => import('@/components/Skills'));
 const Projects = lazy(() => import('@/components/Projects'));
@@ -15,7 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero />
-      <Suspense fallback={<LoadingSpinner />}>
+      <Suspense fallback={null}>
         <About />
         <Skills />
         <Projects />
